@@ -1,1 +1,1 @@
-# Library Management System
+# This project was created for educational purpose
