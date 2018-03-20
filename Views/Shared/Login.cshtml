@@ -1,0 +1,37 @@
+﻿<!Doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="~/css/style.css" />
+</head>
+<body>
+    <div class="loginBox">
+        <img src="~/images/user.png" class="user">
+        <h2>Admin Panel</h2>
+        <form action="#">
+            <p>Email</p>
+            <input type="text" name="email" placeholder="Enter Email">
+            <p>Password</p>
+            <input type="password" name="password" placeholder="Enter Password">
+            <input type="button" onclick="check(this.form)" value="Login" />
+        </form>
+
+        <script language="javascript">
+
+            function check(form) {
+
+                if (form.email.value == "niloy@gmail.com" && form.password.value == "niloy") {
+                    window.location.href = '@Url.Action("Index", "Home")'
+                }
+                else {
+                    alert("Wrong Information");
+                }
+            }
+        </script>
+
+    </div>
+    <div>
+        @RenderBody()
+    </div>
+</body>
+</html>

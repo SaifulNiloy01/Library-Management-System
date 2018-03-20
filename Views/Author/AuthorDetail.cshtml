@@ -1,0 +1,13 @@
+﻿@model IEnumerable<Author>
+
+@{
+    Layout = "_Layout";
+}
+
+<a class="btn btn-success mt-5" style="margin: 10px" asp-controller="Author" asp-action="Create">Create new author</a>
+<div class="row2">
+    @foreach (var author in Model)
+    {
+        @Html.Partial("AuthorPartial", author)
+    }
+</div>

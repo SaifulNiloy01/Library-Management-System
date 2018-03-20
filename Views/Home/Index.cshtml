@@ -1,0 +1,69 @@
+﻿@model HomeViewModel
+@{
+    int availableBooks = Model.BooksCount - Model.LendedBooksCount;
+}
+
+
+<style>
+    .customHeader {
+        margin-top: 20px;
+        margin-left: 350px;
+        width: 40%;
+        border: #000000;
+        padding: 10px;
+        text-align: center;
+    }
+
+    h1 {
+        color: #000000;
+    }
+
+    body {
+        background-image: url("Book_1.jpg");
+    }
+</style>
+
+<h1 class="customHeader"> Dashboard </h1>
+
+<div align="center" class="row">
+    <div class="col-md-6">
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                Number of Customer
+            </div>
+            <div class="panel-body">
+                <p style="font-size:200%"> @Model.CustomersCount </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div align="center" class="row">
+    <div class="col-md-6">
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                Number of Author
+            </div>
+            <div class="panel-body">
+                <p style="font-size:200%"> @Model.AuthorsCount </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div align="center" class="row">
+    <div class="col-md-6">
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                Number of Available Books
+            </div>
+            <div class="panel-body">
+                <p style="font-size:200%"> @Model.BooksCount </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
