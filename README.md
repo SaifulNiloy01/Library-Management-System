@@ -1,1 +1,1 @@
-# This project was created for educational purpose
+This project was created for educational purpose
