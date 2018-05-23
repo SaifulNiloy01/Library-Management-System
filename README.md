@@ -4,7 +4,7 @@ Front-end : Bootstrap
 
 Description: A well organized software solution for library which helps to provide information on any book present in the library to the admin of the library.
 
-Some Features are:
+Some Features are :
 - Create new book <br>
 - Edit book <br>
 - Delete book <br>
