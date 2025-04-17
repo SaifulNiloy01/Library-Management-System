@@ -1,0 +1,27 @@
+# Node modules
+node_modules/
+
+# Logs
+*.log
+
+# Dependency directories
+.cache/
+
+# Angular build artifacts
+dist/
+build/
+.angular/
+
+# IDE specific files
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Compiled files
+*.js
+*.js.map
+
+# Environment files
+src/environments/environment*.ts
