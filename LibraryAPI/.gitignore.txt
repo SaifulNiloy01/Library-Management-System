@@ -1,4 +1,5 @@
 # Visual Studio files
+.vs/
 .vscode/
 *.suo
 *.user

@@ -1,7 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "F:\\Niloy\\Interview Preparation\\Project\\Library-Management-System\\LibraryAPI\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D8428AF2-E73F-4C5A-B0E3-B32EE89EF926}|LibraryAPI\\LibraryAPI.csproj|f:\\niloy\\interview preparation\\project\\library-management-system\\libraryapi\\libraryapi\\controllers\\librarycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8428AF2-E73F-4C5A-B0E3-B32EE89EF926}|LibraryAPI\\LibraryAPI.csproj|solutionrelative:libraryapi\\controllers\\librarycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,6 +31,19 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LibraryController.cs",
+              "DocumentMoniker": "F:\\Niloy\\Interview Preparation\\Project\\Library-Management-System\\LibraryAPI\\LibraryAPI\\Controllers\\LibraryController.cs",
+              "RelativeDocumentMoniker": "LibraryAPI\\Controllers\\LibraryController.cs",
+              "ToolTip": "F:\\Niloy\\Interview Preparation\\Project\\Library-Management-System\\LibraryAPI\\LibraryAPI\\Controllers\\LibraryController.cs",
+              "RelativeToolTip": "LibraryAPI\\Controllers\\LibraryController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-19T09:46:06.964Z",
+              "EditorCaption": ""
             }
           ]
         }
