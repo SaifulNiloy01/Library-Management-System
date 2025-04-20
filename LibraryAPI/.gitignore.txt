@@ -1,4 +1,6 @@
 # Visual Studio files
+LibraryAPI/bin/
+LibraryAPI/obj/
 .vs/
 .vscode/
 *.suo
