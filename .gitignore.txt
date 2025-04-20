@@ -1,5 +1,4 @@
 #global git ignore
-
 LibraryAPI/.vs/
 LibraryAPI/LibraryAPI/bin/
 LibraryAPI/LibraryAPI/obj/
